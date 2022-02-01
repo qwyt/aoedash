@@ -2,7 +2,7 @@
   "name": "create-react-app-with-styled-components-typescript",
   "version": "5.0.0",
   "private": true,
-  "homepage": "www.aoedash.net",
+  "homepage": "https://www.aoedash.net/",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "11.6.0",
