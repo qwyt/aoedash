@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'TrajanusRoman123';
+    src: url("./fonts/TRAJANUS.woff2") format('woff2');
+    /*src:  url("./fonts/TrajanusRoman.ttf") format('truetype');*/
+}
+
+
+.headerTitle {
+    margin-top: 10px !important;
+    align-self: center;
+    font-family: TrajanusRoman123 !important;
+    /*color: gold !important;*/
+    font-size: 20pt;
+    line-height: 32pt;
+    user-select: none;
+    cursor: default;
+    font-weight: bold;
+}
+
+.SampleSample {
+
+    font-family: 'TrajanusRoman123ds', Trattatello, Arial, sans-serif;
+    font-size: 32px;
+    color: yellow;
+    font-weight: bold;
+}

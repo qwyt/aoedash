@@ -1,0 +1,89 @@
+
+.container {
+  width: 100%;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+  position: relative;
+
+  max-width: 180px;
+
+}
+
+.progressBar {
+  //color: red !important;
+  height: 1.05em !important;
+  border-radius: 3px;
+  border-color: rgba(40, 39, 39, 0.53);
+  border-width: 1px;
+  border-style: solid;
+  //background-color: #61dafb !important;
+}
+
+.progressBar > div {
+  background-color: #343ab8 !important;
+  border-radius: 3px !important;
+}
+
+.label {
+  font-family: Futura;
+  //color: rgba(255, 243, 226, 0.65);
+  font-size: 0.6em;
+  font-weight: lighter;
+  position: absolute;
+  top: 2px;
+  left: 42%;
+}
+
+
+.progressColor.veryPositive > div {
+  background-color: #2CB800 !important;
+
+}
+
+.progressColor.positive > div {
+  background-color: #A1CF00 !important;
+}
+
+.progressColor.neutral > div {
+  background-color: #D9B600 !important;
+}
+
+.progressColor.negative > div {
+  background-color: #D96200 !important;
+}
+
+.progressColor.veryNegative > div {
+  background-color: #D93800 !important;
+}
+
+/// - - - -
+.valueLabel {
+  text-align: center;
+}
+
+.baselineLabel {
+  font-size: 12px;
+  text-align: center;
+  cursor: help !important;
+}
+
+.valueLabel.veryPositive {
+  color: #2CB800 !important;
+
+}
+
+.valueLabel.positive {
+  color: #A1CF00 !important;
+}
+
+.valueLabel.neutral {
+  color: #D9B600 !important;
+}
+
+.progressColor.negative {
+  color: #D96200 !important;
+}
+
+.valueLabel.veryNegative {
+  color: #D93800 !important;
+}

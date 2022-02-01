@@ -1,0 +1,30 @@
+
+.ControlItemWithLabelWrapper {
+
+  //background: rebeccapurple;
+  //margin: 5px;
+  //margin-left: 10px;
+}
+
+.ControlItemWithLabelWrapper > div:last-child :global(.MuiToggleButtonGroup-root) {
+
+  //background: rebeccapurple;
+  margin: 0 !important;
+}
+
+.ControlItemWithLabelWrapper > span:first-child {
+  line-height: 1.5 !important;
+}
+
+button.ObjectIconOrDefaultGroupButton {
+  height: 38.7px !important;
+  max-height: 38.7px !important;
+  //background: red !important;
+  min-width: 105px !important;
+}
+
+.ObjectIconOrDefaultGroupButton :global(.MuiButton-startIcon) > div {
+  //background: rebeccapurple !important;
+  height: 30px !important;
+  max-height: 30px !important;
+}

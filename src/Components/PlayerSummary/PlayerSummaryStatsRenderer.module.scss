@@ -1,0 +1,77 @@
+
+.top {
+  cursor: pointer;
+  //visibility: focus === "bottom" ? "hidden" : "visible",
+  visibility: visible;
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  transition: opacity 0.5s;
+
+}
+
+.bottom {
+  cursor: pointer;
+
+  //visibility: focus === "top" ? "hidden" : "visible",
+  visibility: visible;
+  clip-path: polygon(100% 100%, 0% 100%, 100% 0);
+  transition: opacity 0.5s;
+
+  //background-color: rebeccapurple !important;
+}
+
+.seperator {
+
+}
+
+.parentContainer.selected .seperator {
+  opacity: 0;
+  transition: opacity 0.5s;
+
+}
+
+.parentContainer.selected .itemBottom {
+  opacity: 0;
+  transition: opacity 0.5s;
+
+}
+
+.parentContainer.selected .itemTop {
+  opacity: 0;
+  transition: opacity 0.5s;
+
+}
+
+//.parentContainer:hover .seperator {
+//  opacity: 0;
+//}
+//
+//.parentContainer:hover .itemBottom {
+//  opacity: 0;
+//}
+//
+//.parentContainer:hover .itemTop {
+//  opacity: 0;
+//}
+
+//.itemTop:hover {
+//  opacity: 1 !important;
+//  clip-path: none;
+//}
+//
+//.itemBottom:hover {
+//  opacity: 1 !important;
+//  clip-path: none;
+//}
+
+.item {
+  transition: opacity 0.5s;
+}
+
+.item.selected {
+  opacity: 1 !important;
+  clip-path: none;
+}
+
+.hidden {
+  opacity: 0 !important;
+}
