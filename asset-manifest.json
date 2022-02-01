@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/w/static/css/main.96656b97.css",
-    "main.js": "/w/static/js/main.d02d1f9d.js",
-    "static/media/TRAJANUS.woff2": "/w/static/media/TRAJANUS.56ea9992b15edf3d0175.woff2",
-    "index.html": "/w/index.html",
-    "main.96656b97.css.map": "/w/static/css/main.96656b97.css.map",
-    "main.d02d1f9d.js.map": "/w/static/js/main.d02d1f9d.js.map"
+    "main.css": "/www.aoedash.net/static/css/main.4bf7a36b.css",
+    "main.js": "/www.aoedash.net/static/js/main.28f68ed4.js",
+    "static/media/TRAJANUS.woff2": "/www.aoedash.net/static/media/TRAJANUS.56ea9992b15edf3d0175.woff2",
+    "index.html": "/www.aoedash.net/index.html",
+    "main.4bf7a36b.css.map": "/www.aoedash.net/static/css/main.4bf7a36b.css.map",
+    "main.28f68ed4.js.map": "/www.aoedash.net/static/js/main.28f68ed4.js.map"
   },
   "entrypoints": [
-    "static/css/main.96656b97.css",
-    "static/js/main.d02d1f9d.js"
+    "static/css/main.4bf7a36b.css",
+    "static/js/main.28f68ed4.js"
   ]
 }
