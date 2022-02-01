@@ -25,7 +25,6 @@ yarn-error.log*
 .idea/
 .vscode/
 node_modules/
-build
 *.tgz
 my-app*
 template/src/__tests__/__snapshots__/
