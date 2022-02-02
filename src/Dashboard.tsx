@@ -164,7 +164,7 @@ function DashboardContent() {
         }
 
         if (selectedDataset !== "EmpireWars_Stats" && selectedDataset !== "RM_Stats") {
-            setPathTo("RM_Stats")
+            // setPathTo("RM_Stats")
         }
         return selectedDataset
     }
