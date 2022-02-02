@@ -118,7 +118,7 @@ export default function ToggleColorMode() {
         let path = window.location.href.substring(window.location.href.lastIndexOf('/') + 1)
         if (path.length === 0) {
             // window.location.href = "/EmpireWars_Stats"
-            window.location.href = "/RM_Stats"
+            // window.location.href = "/RM_Stats"
         }
     });
 
