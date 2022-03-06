@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.fd080c2e.css",
-    "main.js": "/static/js/main.05c97001.js",
+    "main.js": "/static/js/main.b128ecb0.js",
     "static/media/TRAJANUS.woff2": "/static/media/TRAJANUS.56ea9992b15edf3d0175.woff2",
     "index.html": "/index.html",
     "main.fd080c2e.css.map": "/static/css/main.fd080c2e.css.map",
-    "main.05c97001.js.map": "/static/js/main.05c97001.js.map"
+    "main.b128ecb0.js.map": "/static/js/main.b128ecb0.js.map"
   },
   "entrypoints": [
     "static/css/main.fd080c2e.css",
-    "static/js/main.05c97001.js"
+    "static/js/main.b128ecb0.js"
   ]
 }
